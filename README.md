@@ -17,16 +17,33 @@ Celem analizy było zbadanie kondycji finansowej lokalu, identyfikacja szczytów
 
 ---
 
-## 📊 Kluczowe wyniki (KPI)
+## 📊 Wyniki zapytań SQL (Podsumowanie i zrzuty ekranu)
 
-| Wskaźnik (KPI) | Wartość |
-| :--- | :--- |
-| **Łączny przychód** | `817 860,05 $` |
-| **Liczba zamówień** | `21 350` |
-| **Liczba sprzedanych pizz** | `49 574` |
-| **Średnia wartość koszyka (AOV)** | `38,31 $` |
+### 1. Podstawowe KPI biznesowe
+
+| Liczba zamówień | Sprzedane pizze | Łączny przychód | Średni koszyk (AOV) |
+| :--- | :--- | :--- | :--- |
+| `21 350` | `49 574` | `817 860,05 $` | `38,31 $` |
 
 ![Podstawowe KPI](sql_portfolio1.png)
+
+### 2. Sprzedaż według kategorii pizz
+![Sprzedaż według kategorii](sql_portfolio2.png)
+
+### 3. Analiza rozmiarów pizz
+![Analiza rozmiarów](sql_portfolio3.png)
+
+### 4. Godziny szczytu w pizzerii
+![Godziny szczytu](sql_portfolio4.png)
+
+### 5. Dynamika sprzedaży miesiąc do miesiąca (`LAG`)
+![Trend miesięczny MoM](sql_portfolio5.png)
+
+### 6. Ranking Top 3 pizz w każdej kategorii (`DENSE_RANK`)
+![Top 3 pizze w kategoriach](sql_portfolio6.png)
+
+### 7. Najgorzej sprzedające się pizze
+![Najgorzej sprzedające się pizze](sql_portfolio7.png)
 
 ---
 
@@ -46,16 +63,6 @@ Celem analizy było zbadanie kondycji finansowej lokalu, identyfikacja szczytów
 
 ---
 
-## 🖼️ Podgląd wybranych zapytań i wyników
-
-### Ranking Top 3 pizz w każdej kategorii (`DENSE_RANK`)
-![Top 3 pizze w kategoriach](sql_portfolio6.png)
-
-### Dynamika sprzedaży miesiąc do miesiąca (`LAG`)
-![Trend miesięczny MoM](sql_portfolio5.png)
-
----
-
 ## 📂 Struktura repozytorium
-* `sql_portfolio_number3.sql` – pełny skrypt z 7 zapytaniami analitycznymi oraz komentarzami biznesowymi.
+* [`sql_portfolio_number3.sql`](sql_portfolio_number3.sql) – pełny skrypt z 7 zapytaniami analitycznymi oraz komentarzami biznesowymi.
 * `sql_portfolio1.png` – `sql_portfolio7.png` – zrzuty ekranu z wynikami poszczególnych zapytań w DBeaverze.

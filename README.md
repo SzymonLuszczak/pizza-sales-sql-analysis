@@ -1,4 +1,7 @@
+📂 **Źródło danych:** [Pizza Place Sales Analysis (Kaggle)](https://www.kaggle.com/datasets/ankitrajmishra/pizza-place-sales-analysis)
+
 # 🍕 Analiza Sprzedaży Pizzerii (SQL Portfolio Project)
+
 
 Kompleksowa analiza danych sprzedażowych pizzerii przeprowadzona w środowisku **SQLite / DBeaver** na relacyjnej bazie danych składającej się z 4 tabel (`orders`, `order_details`, `pizzas`, `pizza_types` – ok. 49 tys. rekordów).
 
